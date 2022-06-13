@@ -39,3 +39,17 @@ footer ul li a{
     opacity: 80%;
     transition: all 2s;
 }
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.formulario{
+    padding: 20px;
+    border: solid gray;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 20px ;
+    margin-bottom: 20px;
+}

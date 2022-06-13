@@ -10,7 +10,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="../images/primer-html/c00b692e9820c3970e907eae9bf2be25.png">
     <title>contacto -</title>
 </head>
 
@@ -32,7 +34,7 @@
                                 href="./lanzamientos.html">Lanzamientos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link navmod" href="./pages/testdrive.html">Test Drive</a>
+                            <a class="nav-link navmod" href="./testdrive.html">Test Drive</a>
                         </li>
                         <li class="nav-item dropdown navmod">
                             <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button"
@@ -61,17 +63,28 @@
     </header>
     <main>
         <h1>Contacto</h1>
-        <h2>Si tenés algún artí­culo o noticia y queres compartirlo con los lectores de 16 Valvulas, enví­anos el texto,
-            las fotografí­as y el nombre con el que deseas que aparezca y lo publicaremos.</h2>
     </main>
-    <section class="formulario">
+        <h3>Si tenés algún artí­culo o noticia y queres compartirlo con los lectores, enví­anos el texto,
+            las fotografí­as y el nombre con el que deseas que aparezca y lo publicaremos.</h3>
+    <section class="formulario animate__animated animate__fadeIn">
         <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <label for="exampleFormControlInput1" class="form-label">Nombre (obligatorio)</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email (obligatorio)</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
           </div>
           <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <label for="exampleFormControlInput1" class="form-label">Tema</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="d-grid gap-2 d-md-block">
+            <button class="btn btn-primary" type="button">Enviar</button>
           </div>
     </section>
     <footer>
